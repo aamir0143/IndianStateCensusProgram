@@ -12,7 +12,7 @@ namespace IndianStateCensusTestProgram
         //Arrange
         //List of file paths
         string stateCensusFilePath = @"E:\BridgeLabz102\IndianStateCensusProgram\IndianStateCensusPrograms\CSVFiles\IndianPopulation.csv";
-        string wrongFilePath = @"E:\BridgeLabz102\IndianStateCensusProgram\IndianStateCensusPrograms\CSVFiles\IndianPopulatio.csv";
+        string wrongFilePath = @"E:\BridgeLabz102\IndianStateCensusProgram\IndianStateCensusPrograms\CSVFiles\IndianPopulations.csv";
         string wrongTypeFilePath = @"E:\BridgeLabz102\IndianStateCensusProgram\IndianStateCensusPrograms\CSVFiles\IndianPopulation.txt";
         string wrongDelimiterFilePath = @"E:\BridgeLabz102\IndianStateCensusProgram\IndianStateCensusPrograms\CSVFiles\DelimiterIndiaStateCensusData.csv";
         string wrongHeaderFilePath = @"E:\BridgeLabz102\IndianStateCensusProgram\IndianStateCensusPrograms\CSVFiles\WrongIndiaStateCensusData.csv";
