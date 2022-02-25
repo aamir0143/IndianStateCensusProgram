@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndianStateCensusProgram", "IndianStateCensusProgram.csproj", "{133463BE-6CA8-4258-BA87-4EA379EAA478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndianStateCensusTestProgram", "..\IndianStateCensusTestProgram\IndianStateCensusTestProgram.csproj", "{6B085247-EEBE-4287-9145-0C1DED47171C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133463BE-6CA8-4258-BA87-4EA379EAA478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133463BE-6CA8-4258-BA87-4EA379EAA478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133463BE-6CA8-4258-BA87-4EA379EAA478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133463BE-6CA8-4258-BA87-4EA379EAA478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B085247-EEBE-4287-9145-0C1DED47171C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B085247-EEBE-4287-9145-0C1DED47171C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B085247-EEBE-4287-9145-0C1DED47171C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B085247-EEBE-4287-9145-0C1DED47171C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C1DB406-5A08-4F8B-9006-67E420DAA8A7}
+	EndGlobalSection
+EndGlobal
