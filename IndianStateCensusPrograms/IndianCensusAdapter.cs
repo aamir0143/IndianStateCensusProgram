@@ -23,7 +23,7 @@ namespace IndianStateCensusProgram
                 censusState = new Dictionary<string, CensusDTO>();
                 //Using the censusdata return by CensusAdapter method which store csv data read from file
                 censusData = GetCensusData(csvFilePath, dataHeaders);
-                //Condition for adding string array by skipping the first row into the dictionary(UC1)
+                //Condition for adding string array by skipping the first row into the dictionary(UC1&UC2) 
                 foreach (string data in censusData.Skip(1)) 
                 {
                     if (!data.Contains(","))
@@ -31,8 +31,10 @@ namespace IndianStateCensusProgram
                         throw new CensusAnalyserException("File Containers Wrong Delimiter", CensusAnalyserException.ExceptionType.INCORRECT_DELIMITER);
                     }
                     string[] coloumn = data.Split(',');
+                    //Adding the indian state code data into the dictionary(UC2)
                     if (csvFilePath.Contains("IndiaStateCode.csv"))
                         censusState.Add(coloumn[0], new CensusDTO(new StateCodeDataDAO(coloumn[0], coloumn[1], coloumn[2], coloumn[3])));
+                    //Adding the indian state census data into the dictionary(UC1)
                     if (csvFilePath.Contains("IndianPopulation.csv"))
                         censusState.Add(coloumn[0], new CensusDTO(new PopulationDataDAO(coloumn[0], coloumn[1], coloumn[2], coloumn[3])));
                 }
